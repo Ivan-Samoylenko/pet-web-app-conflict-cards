@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles/components/_example.scss"],"names":[],"mappings":"AAAA,GACE,YAEA,oCAHF,GAII","file":"src.e62f7228.css","sourceRoot":"../src","sourcesContent":["h1 {\n  color: green;\n\n  @media screen and (max-width: 768px) {\n    color: red;\n  }\n}\n"]}
