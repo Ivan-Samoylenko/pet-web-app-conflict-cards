@@ -1,0 +1,27 @@
+{
+  "name": "parcel-on-windows",
+  "version": "1.0.0",
+  "description": "Parcel on Windows 7",
+  "main": "index.js",
+  "homepage": "https://github.com/Ivan-Samoylenko/Parcel",
+  "scripts": {
+    "start": "parcel serve ./src/*.html",
+    "build": "parcel build ./src/*.html --public-url /Parcel/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivan-Samoylenko/Parcel.git"
+  },
+  "author": "Ivan Samoylenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivan-Samoylenko/Parcel/issues"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.4",
+    "sass": "^1.55.0"
+  }
+}
