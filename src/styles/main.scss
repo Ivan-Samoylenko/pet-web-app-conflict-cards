@@ -1,2 +1,10 @@
 // приклад імпорту файлів стилів
-@import "./components/_example";
+@import "./utils/variables";
+@import "./base/modern-normalize";
+@import "./base/base";
+@import "./base/atomic";
+@import "./components/container";
+@import "./components/header";
+@import "./components/main-page";
+@import "./components/footer";
+@import "./components/rules";
